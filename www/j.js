@@ -1,0 +1,14 @@
+curl 'https://voting-api.voot.com/v1/addvote' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36' \
+  -H 'DNT: 1' \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Origin: https://voting.voot.com' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  --data-binary '{"showId":"ec324230-02f2-11eb-bf8c-d128fef771cc","showName":"Bigg Boss 14","categoryId":"","categoryName":"","contestantId":"6d4c1830-0700-11eb-80dd-2d044fe699cc","contestantName":"Rubina Dilaik","cycleId":"0cf3b670-282d-11eb-8b50-a705ce356217","userId":"593f4c8b51714ca4b9dfbfad52901afc","userName":"Rushabh1","userEmail":"rushabhparekh1@live.com","region":"in","ip":"103.156.50.154","loginProvider":"Traditional"}' \
+  --compressed

@@ -1,0 +1,13 @@
+{
+  "appId": "com.app.sample",
+  "appName": "hello-world5",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
